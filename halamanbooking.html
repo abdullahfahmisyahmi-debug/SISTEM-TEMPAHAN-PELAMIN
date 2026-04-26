@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pakej Pelamin - Aril Swarovski</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #f9f4f0; color: #333; margin: 0; padding: 20px; }
+        .container { max-width: 1200px; margin: auto; }
+        .header { text-align: center; margin-bottom: 40px; }
+        .header h1 { color: black; letter-spacing: 2px; }
+        
+        /* Susunan Grid Pakej */
+        .pakej-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+        
+        /* Kad Pakej */
+        .pakej-card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1); transition: transform 0.3s; text-align: center; padding-bottom: 20px; }
+        .pakej-card:hover { transform: translateY(-10px); }
+        .pakej-img { width: 100%; height: 200px; background-color: #ddd; object-fit: cover; }
+        
+        .pakej-info h3 { margin: 15px 0 5px; color: black; }
+        .price { font-size: 1.4em; color: black; font-weight: bold; margin-bottom: 15px; }
+        
+        /* Butang Tempahan */
+        .btn-booking { background-color: black; color: white; border: none; padding: 10px 25px; border-radius: 25px; cursor: pointer; text-decoration: none; font-weight: bold; transition: background 0.3s; }
+        .btn-booking:hover { background-color: black; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h1>ARIL SWAROVSKI</h1>
+        <p>Pilih pakej impian perkahwinan anda</p>
+    </div>
+
+    <div class="pakej-grid">
+        <div class="pakej-card">
+            <div class="pakej-img" style="background-image: url('PELAMIN\ SEKKOLAH\ 3.jpeg'); background-size: cover;"></div>
+            <div class="pakej-info">
+                <h3>Pelamin Mini</h3>
+                <p class="price"></p>
+                <a href="pelamin mini.html" class="btn-booking"><button style="border-radius:50%; padding:10px 15px;">
+  ➜
+</button></a>
+            </div>
+        </div>
+
+        <div class="pakej-card">
+            <div class="pakej-img" style="background-image: url('PELAMIN\ SEKOLAH\ 1.jpeg'); background-size: cover;"></div>
+            <div class="pakej-info">
+                <h3>Pelamin Dewan</h3>
+                <p class="price"></p>
+                <a href="pelamin dewan.html" class="btn-booking"><button style="border-radius:50%; padding:10px 15px;">
+  ➜
+</button>
+</a>
+            </div>
+        </div>
+
+        <div class="pakej-card">
+            <div class="pakej-img" style="background-image: url('PELAMIN\ SEKOLAH\ 2.jpeg'); background-size: cover;"></div>
+            <div class="pakej-info">
+                <h3>Pelamin Rumah</h3>
+                <p class="price"></p>
+                <a href="pelamin rumah.html" class="btn-booking"><button style="border-radius:50%; padding:10px 15px;">
+  ➜
+</button></a>
+            </div>
+        </div>
+
+        <div class="pakej-card">
+            <div class="pakej-img" style="background-image: url('PELAMIN\ SEKOLAH\ 4.jpeg'); background-size: cover;"></div>
+            <div class="pakej-info">
+                <h3>Pelamin Sekolah</h3>
+                <p class="price"></p>
+                <a href="pelamin sekolah.html" class="btn-booking"><button style="border-radius:50%; padding:10px 15px;">
+  ➜
+</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
